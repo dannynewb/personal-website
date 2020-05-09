@@ -1,2 +1,2 @@
 # personal-website
-My personal website
+A simple website for myself.
