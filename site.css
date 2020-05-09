@@ -1,0 +1,12 @@
+html, body {
+    height: 100%;
+}
+
+#about-me {
+    background-color: #0ACDFF;
+    color: #FFFFFF;
+}
+
+#about-me .title {
+    color: #FFFFFF;
+}
