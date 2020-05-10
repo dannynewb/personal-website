@@ -6,3 +6,19 @@ html, body {
 .hero {
     background-color: #04619f;
 }
+
+#facebook-icon:hover {
+    color: #3B5998;
+}
+
+#linkedin-icon:hover {
+    color: #0E76A8;
+}
+
+#github-icon:hover {
+    color: #6F42C1;
+}
+
+#email-icon:hover {
+    color: #2EBFA5;
+}
