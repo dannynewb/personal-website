@@ -1,12 +1,8 @@
 html, body {
     height: 100%;
+    background-color: #F9F9F9;
 }
 
-#about-me {
-    background-color: #0ACDFF;
-    color: #FFFFFF;
-}
-
-#about-me .title {
-    color: #FFFFFF;
+.hero {
+    background-color: #04619f;
 }
