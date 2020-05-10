@@ -3,12 +3,12 @@ html, body {
     background-color: #F9F9F9;
 }
 
-.hero-body {
-    background-color: #04619f;
-}
-
 .footer {
     padding: 3rem 1.5rem;
+}
+
+#colour-palette {
+    color: #FFFFFF;
 }
 
 .hero.is-fullheight-with-navbar {
@@ -25,14 +25,34 @@ a {
     color: unset;
 }
 
-a.navbar-item:hover {
-    background-color: #04619f;
+a.navbar-item.blue-jeans.is-active {
+    background-color: #04619f !important;
     color: #FFFFFF;
 }
 
-a.navbar-item.is-active:not(:focus):not(:hover) {
-    background-color: #04619f;
+a.navbar-item.magenta.is-active {
+    background-color: #DF367C !important;
     color: #FFFFFF;
+}
+
+a.navbar-item.fiery-rose.is-active {
+    background-color: #FF5964 !important;
+    color: #FFFFFF;
+}
+
+a.navbar-item.violet-blue.is-active {
+    background-color: #7776BC !important;
+    color: #FFFFFF;
+}
+
+a.navbar-item.gunmetal.is-active {
+    background-color: #2A2D34 !important;
+    color: #FFFFFF;
+}
+
+.dropdown-item {
+    height: 2rem;
+    width: 1rem;
 }
 
 #facebook-icon:hover {
@@ -49,4 +69,24 @@ a.navbar-item.is-active:not(:focus):not(:hover) {
 
 #email-icon:hover {
     color: #2EBFA5;
+}
+
+.blue-jeans {
+    background-color: #04619f !important;
+}
+
+.magenta {
+    background-color: #DF367C !important;
+}
+
+.fiery-rose {
+    background-color: #FF5964 !important;
+}
+
+.violet-blue {
+    background-color: #7776BC !important;
+}
+
+.gunmetal {
+    background-color: #2A2D34 !important;
 }

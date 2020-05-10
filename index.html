@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
     <link rel="stylesheet" href="site.css">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <script src="site.js"></script>
 </head>
 
 <body>
@@ -17,6 +18,40 @@
             <nav class="navbar">
                 <div class="container">
                     <div class="navbar-brand">
+                        <div class="dropdown is-hoverable">
+                            <div class="dropdown-trigger">
+                                <a id="colour-picker" class="navbar-item blue-jeans" aria-haspopup="true"
+                                    aria-controls="colour-dropdown-menu">
+                                    <span class="icon is-large">
+                                        <i id="colour-palette" class="fas fa-palette fa-2x"></i>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="dropdown-menu" id="colour-dropdown-menu" role="menu">
+                                <div class="dropdown-content">
+                                    <a href="#" class="dropdown-item blue-jeans"
+                                        onclick="changeBodyBg('blue-jeans');">
+
+                                    </a>
+                                    <a href="#" class="dropdown-item magenta"
+                                        onclick="changeBodyBg('magenta');">
+
+                                    </a>
+                                    <a href="#" class="dropdown-item fiery-rose"
+                                        onclick="changeBodyBg('fiery-rose');">
+
+                                    </a>
+                                    <a href="#" class="dropdown-item violet-blue"
+                                        onclick="changeBodyBg('violet-blue');">
+
+                                    </a>
+                                    <a href="#" class="dropdown-item gunmetal"
+                                        onclick="changeBodyBg('gunmetal');">
+
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                         <span class="navbar-burger burger" data-target="navbarMenuHeroA">
                             <span></span>
                             <span></span>
@@ -25,7 +60,7 @@
                     </div>
                     <div id="navbarMenuHeroA" class="navbar-menu">
                         <div class="navbar-end">
-                            <a class="navbar-item is-active">
+                            <a class="navbar-item is-active blue-jeans">
                                 Home
                             </a>
                             <a class="navbar-item">
@@ -37,7 +72,7 @@
             </nav>
         </div>
 
-        <div class="hero-body">
+        <div class="hero-body blue-jeans">
             <div class="container">
                 <div class="tile is-ancestor">
                     <div class="tile is-vertical is-parent is-4">
