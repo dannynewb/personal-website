@@ -7,6 +7,14 @@ html, body {
     background-color: #04619f;
 }
 
+.footer {
+    padding: 3rem 1.5rem;
+}
+
+a {
+    color: unset;
+}
+
 #facebook-icon:hover {
     color: #3B5998;
 }
