@@ -11,6 +11,12 @@ html, body {
     padding: 3rem 1.5rem;
 }
 
+.has-vertical-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 a {
     color: unset;
 }
