@@ -52,6 +52,9 @@ function changeBodyBg(className) {
         if (currentNavbarItem.classList.contains('is-active') || currentNavbarItem.id == 'colour-picker') {
             currentNavbarItem.classList.add(className);
         }
+        else {
+            currentNavbarItem.classList.add(className + '-hover');
+        }
     }
 }
 
@@ -61,4 +64,10 @@ function removeClasses(element) {
     element.classList.remove("fiery-rose");
     element.classList.remove("violet-blue");
     element.classList.remove("gunmetal");
+
+    element.classList.remove("blue-jeans-hover");
+    element.classList.remove("magenta-hover");
+    element.classList.remove("fiery-rose-hover");
+    element.classList.remove("violet-blue-hover");
+    element.classList.remove("gunmetal-hover");
 }

@@ -34,7 +34,17 @@ a.navbar-item.blue-jeans.is-active {
     color: #FFFFFF;
 }
 
+a.navbar-item.blue-jeans-hover:hover {
+    background-color: #04619f !important;
+    color: #FFFFFF;
+}
+
 a.navbar-item.magenta.is-active {
+    background-color: #DF367C !important;
+    color: #FFFFFF;
+}
+
+a.navbar-item.magenta-hover:hover {
     background-color: #DF367C !important;
     color: #FFFFFF;
 }
@@ -44,12 +54,27 @@ a.navbar-item.fiery-rose.is-active {
     color: #FFFFFF;
 }
 
+a.navbar-item.fiery-rose-hover:hover {
+    background-color: #FF5964 !important;
+    color: #FFFFFF;
+}
+
 a.navbar-item.violet-blue.is-active {
     background-color: #7776BC !important;
     color: #FFFFFF;
 }
 
+a.navbar-item.violet-blue-hover:hover {
+    background-color: #7776BC !important;
+    color: #FFFFFF;
+}
+
 a.navbar-item.gunmetal.is-active {
+    background-color: #2A2D34 !important;
+    color: #FFFFFF;
+}
+
+a.navbar-item.gunmetal-hover:hover {
     background-color: #2A2D34 !important;
     color: #FFFFFF;
 }
