@@ -44,6 +44,7 @@ function changeBodyBg(className) {
 
     var heroBody = document.getElementsByClassName('hero-body');
     removeClasses(heroBody[0])
+    heroBody[0].classList.add('transition');
     heroBody[0].classList.add(className);
 
     var navbarItems = document.getElementsByClassName('navbar-item');
@@ -52,6 +53,8 @@ function changeBodyBg(className) {
         var currentNavbarItem = navbarItems[navBarItemsIndex];
 
         removeClasses(currentNavbarItem)
+
+        currentNavbarItem.classList.add('transition');
 
         if (currentNavbarItem.classList.contains('is-active') || currentNavbarItem.id == 'colour-picker') {
             currentNavbarItem.classList.add(className);
@@ -74,4 +77,5 @@ function removeClasses(element) {
     element.classList.remove("fiery-rose-hover");
     element.classList.remove("violet-blue-hover");
     element.classList.remove("gunmetal-hover");
+    element.classList.remove("transition");
 }

@@ -104,6 +104,10 @@ a.navbar-item.gunmetal-hover:hover {
     color: #2EBFA5;
 }
 
+.transition {
+    transition: left 0s ease-in-out, background-color 1s ease-out 0s;
+}
+
 .blue-jeans {
     background-color: #04619f !important;
 }
