@@ -25,10 +25,6 @@ html, body {
     align-items: center;
 }
 
-a {
-    color: unset;
-}
-
 #feed *, ::after, ::before {
     box-sizing: unset;
 }
