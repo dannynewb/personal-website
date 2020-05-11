@@ -25,6 +25,10 @@ html, body {
     align-items: center;
 }
 
+.logo {
+    color: unset;
+}
+
 #feed *, ::after, ::before {
     box-sizing: unset;
 }
