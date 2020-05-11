@@ -29,6 +29,10 @@ a {
     color: unset;
 }
 
+#feed *, ::after, ::before {
+    box-sizing: unset;
+}
+
 a.navbar-item.blue-jeans.is-active {
     background-color: #04619f !important;
     color: #FFFFFF;
