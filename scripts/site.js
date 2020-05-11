@@ -4,11 +4,11 @@ document.addEventListener('DOMContentLoaded', () => {
     
     var theme = localStorage.getItem('theme');
 
-    if (theme != 'null') {
-        changeBodyBg(theme);
+    if (theme == 'null' || theme == null) {
+        changeBodyBg('blue-jeans');
     }
     else {
-        changeBodyBg('blue-jeans');
+        changeBodyBg(theme);
     }
 });
 
