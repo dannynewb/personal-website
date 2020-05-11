@@ -11,10 +11,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 });
 
-function setSelectedTheme() {
-
-}
-
 function addBurgerClickEvent() {
     // Get all "navbar-burger" elements
     const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
