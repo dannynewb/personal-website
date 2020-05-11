@@ -7,6 +7,10 @@ html, body {
     padding: 3rem 1.5rem;
 }
 
+.navbar-burger {
+    height: inherit; 
+}
+
 #colour-palette {
     color: #FFFFFF;
 }
